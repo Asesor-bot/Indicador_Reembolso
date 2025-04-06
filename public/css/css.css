@@ -1,0 +1,40 @@
+
+.imagen-redonda {
+  width: 50px;        /* Ajusta el tamaño según lo necesites */
+  height: 50px;       /* Debe ser igual al ancho */
+  object-fit: cover;   /* Para asegurar que la imagen cubra el espacio sin distorsionarse */
+  border-radius: 50%;  /* Hace que los bordes sean completamente redondos */
+  border: 0px solid #ccc; /* Borde opcional para resaltar el icono */
+}
+
+.icon-group {
+  display: inline-flex;
+  align-items: center; /* Alinea verticalmente los íconos */
+  gap: 2px; /* Espacio entre los íconos */
+}
+
+.icon-group .second-icon {
+  font-size: 1rem; /* Tamaño más pequeño para el segundo ícono */
+  color: white;
+  position: relative; /* Permite moverlo con top */
+  top: -5px; /* Ajusta hacia arriba */
+}
+
+.button-column {
+  align-items: center; /* Centra horizontalmente los botones */
+  gap: 10px; /* Espaciado entre los botones */
+}
+
+.gradient-button {
+  background: linear-gradient(45deg, blue, purple); /* Degradado entre azul y morado */
+  color: white; /* Color del texto */
+  border: none; /* Elimina bordes */
+  padding: 10px 20px; /* Ajusta el padding */
+  border-radius: 15px; /* Bordes redondeados */
+  transition: transform 0.2s, box-shadow 0.2s; /* Efectos al hacer hover */
+}
+
+.gradient-button:hover {
+  transform: scale(1.05); /* Agranda un poco el botón al pasar el ratón */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra al hacer hover */
+}

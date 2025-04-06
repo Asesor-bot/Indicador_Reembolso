@@ -1,0 +1,189 @@
+#chatbot {
+    height: 100%;
+    margin: 0;
+    background: #ffffff;
+    color: #2C3E50;
+}
+
+#chatbot .chat {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#chatbot .card {
+    height: 500px;
+    border-radius: 15px !important;
+    background-color: #f9f9f9 !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#chatbot .msg_card_body {
+    overflow-y: auto;
+}
+
+#chatbot .card-header {
+    border-radius: 15px 15px 0 0 !important;
+    border-bottom: 0 !important;
+    background-color: #2C3E50;
+    color: #ffffff;
+}
+
+#chatbot .card-footer {
+    border-radius: 0 0 15px 15px !important;
+    border-top: 0 !important;
+    background-color: #e8e8e8;
+}
+
+
+#chatbot .type_msg:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+
+#chatbot .attach_btn, #chatbot .send_btn {
+    background-color: #2C3E50 !important;
+    border: 0 !important;
+    color: #ffffff !important;
+    cursor: pointer;
+}
+
+#chatbot .msg_cotainer {
+    border-radius: 25px;
+    background-color: #e9ecef;
+    padding: 10px;
+    position: relative;
+    max-width: 70%;
+    color: #495057;
+}
+
+#chatbot .msg_cotainer_send {
+    border-radius: 25px;
+    background-color: #007bff;
+    padding: 10px;
+    position: relative;
+    max-width: 70%;
+    color: #ffffff;
+}
+
+#chatbot .msg_time, #chatbot .msg_time_send {
+    font-size: 10px;
+    color: #6c757d;
+    position: absolute;
+    bottom: -15px;
+}
+
+#chatbot .msg_time {
+    left: 0;
+}
+
+#chatbot .msg_time_send {
+    right: 0;
+}
+
+#chatbot .img_cont {
+    position: relative;
+}
+
+#chatbot .user_img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+#chatbot .online_icon {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color: #28a745;
+    border-radius: 50%;
+    bottom: 0;
+    right: 0;
+    border: 1.5px solid white;
+}
+
+#chatbot .user_info span {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+#chatbot .user_info p {
+    font-size: 12px;
+    color: #f1f1f1;
+}
+
+#chatbot .input-group-append .input-group-text {
+    background-color: #2C3E50;
+    border: none;
+    color: #ffffff;
+}
+
+#chatbot .send_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px; /* Ajusta el tamaño según sea necesario */
+    height: 40px;
+    background-color: #007bff; /* Color de fondo */
+    color: white; /* Color del icono */
+    border-radius: 50%; /* Hace que el botón sea redondo */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambia el cursor a puntero */
+}
+
+#chatbot .send_btn:hover {
+    background-color: #0056b3; /* Cambia el color en hover */
+}
+
+#chatbot .send_btn i {
+    font-size: 1rem; /* Tamaño del icono */
+}
+
+#chatbot .input-group {
+    display: flex; /* Flexbox para igualar altura */
+    align-items: stretch; /* Asegura que todos los elementos ocupen la misma altura */
+}
+
+#chatbot .type_msg {
+    flex: 1; /* Permite que el textarea ocupe el espacio restante */
+    border-top-right-radius: 0 !important; /* Elimina bordes redondeados en el lado derecho */
+    border-bottom-right-radius: 0 !important;
+}
+
+#chatbot #send-button {
+    height: auto; /* Ajusta la altura automáticamente al contenedor */
+    border-top-left-radius: 0; /* Elimina bordes redondeados en el lado izquierdo */
+    border-bottom-left-radius: 0;
+    display: flex;
+    align-items: center; /* Centra el texto dentro del botón verticalmente */
+    padding: 0 20px; /* Añade espacio horizontal para que el botón sea cómodo */
+}
+
+#chatbot .styled-group {
+    display: flex; /* Alinea el textarea y el botón horizontalmente */
+    align-items: stretch; /* Asegura que ambos elementos tengan la misma altura */
+    border-radius: 15px; /* Bordes redondeados para el grupo */
+
+}
+
+
+
+/*icon*/
+#chatbot .btn-icon {
+    background: transparent; /* Fondo transparente */
+    border: none; /* Sin borde */
+    padding: 0; /* Sin relleno extra */
+    color: inherit; /* Toma el color del texto o fondo actual */
+    cursor: pointer; /* Muestra el cursor de puntero */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#chatbot .btn-icon:hover {
+    color: rgba(0, 0, 0, 0.7); /* Cambia el color al pasar el cursor (opcional) */
+}
+
+#chatbot .btn-icon:focus {
+    outline: none; /* Elimina el borde al enfocar */
+}
+

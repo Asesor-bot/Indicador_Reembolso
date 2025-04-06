@@ -1,0 +1,10 @@
+#reconsideracion  .table th{
+    vertical-align: initial !important;
+    font-size:12px;
+    text-align: center;
+  }
+#reconsideracion  .table td{
+    vertical-align:  middle !important;
+    font-size:12px ;
+    text-align: center;
+}
