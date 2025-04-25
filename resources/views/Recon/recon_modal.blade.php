@@ -147,19 +147,19 @@
                                         <select name='edit_ape_resolutor' id="edit_ape_resolutor"
                                             class="form-control" style="color:black;" wire:model="resolutor">
                                             <option value="resolutor_vacio">SELECCIONE:</option>
-                                            <option value="70008842">CARLO RODRIGO POSTIGO QUIROZ</option>
-                                            <option value="09645683">MARIA ISABEL ARÃ‰STEGUI MONDALGO</option>
-                                            <option value="45006608">NINA DEL ROSARIO SILVA CADENAS</option>
-                                            <option value="08156112">VERUSCHKA VALLE CUBA</option>
-                                            <option value="06269858">YADYRA ARLETTY NARVAJO RAVELLO</option>
-                                            <option value="GVIVASQ">GIOVANNI VIVAS QUISPE</option>
-                                            <option value="IGOR">IGOR CB</option>
-                                            <option value="25708905">CESAR JOSE RICARDO TORRES CARPIO</option>
-                                            <option value="06580322">CESAR WENCESLAO ARIAS VENEGAS</option>
-                                            <option value="42939554">ELVA LUCY CONDOR CALLUPE</option>
-                                            <option value="10062095">PATRICIA ISABEL FIGUEROA VASQUEZ</option>
-                                            <option value="10771054">VICTOR MORENO GALLEGOS</option>
-                                            <option value="10356127">WILLY MARTIN ARBAIZA TORREALVA</option>
+                                            <option value="70218842">CARLO P. Q.</option>
+                                            <option value="09545633">MARIA A. M.</option>
+                                            <option value="45046502">NINA S. C.</option>
+                                            <option value="08456713">VERUSCHKA V. C.</option>
+                                            <option value="06229456">YADYRA N. R.</option>
+                                            <option value="GVIVASQ">GIOVANNI V. Q.</option>
+                                            <option value="IGOR">IGOR C. B.</option>
+                                            <option value="25601936">CESAR JOSE  T. C.</option>
+                                            <option value="06569312">CESAR A. V.</option>
+                                            <option value="42538564">ELVA LUCY C. C.</option>
+                                            <option value="10166096">PATRICIA ISABEL F. V.</option>
+                                            <option value="10751651">VICTOR M. G.</option>
+                                            <option value="10255128">WILLY A. T.</option>
                                         </select>
                                     </div>
                                 </div>
